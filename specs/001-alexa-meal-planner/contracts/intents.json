@@ -1,0 +1,103 @@
+{
+    "intents": [
+        {
+            "name": "GetMealIntent",
+            "slots": [
+                {
+                    "name": "MealType",
+                    "type": "MealTypeSlot",
+                    "required": false
+                },
+                {
+                    "name": "DayOfWeek",
+                    "type": "AMAZON.DayOfWeek",
+                    "required": false
+                }
+            ],
+            "samples": [
+                "what's for {MealType}",
+                "what's for {MealType} today",
+                "what should I cook for {MealType}",
+                "what's for {MealType} on {DayOfWeek}",
+                "what's for {MealType} {DayOfWeek}",
+                "what am I having for {MealType}",
+                "what am I cooking for {MealType} on {DayOfWeek}",
+                "tell me what's for {MealType}",
+                "what should I make for {MealType}",
+                "what should I prepare for {MealType}"
+            ]
+        },
+        {
+            "name": "GetTodayMealsIntent",
+            "slots": [],
+            "samples": [
+                "what should I cook today",
+                "what's for today",
+                "what am I cooking today",
+                "tell me today's meal plan",
+                "what's on the menu today",
+                "what meals do I have today",
+                "what should I prepare today",
+                "give me today's meals",
+                "what's the plan for today",
+                "today's meal plan"
+            ]
+        },
+        {
+            "name": "GetNextMealIntent",
+            "slots": [],
+            "samples": [
+                "what's next",
+                "what should I cook next",
+                "what's the next meal",
+                "what am I cooking next",
+                "what should I prepare next",
+                "what's coming up",
+                "what's my next meal",
+                "tell me the next meal"
+            ]
+        },
+        {
+            "name": "GetSpecificDayMealIntent",
+            "slots": [
+                {
+                    "name": "DayOfWeek",
+                    "type": "AMAZON.DayOfWeek",
+                    "required": true
+                },
+                {
+                    "name": "MealType",
+                    "type": "MealTypeSlot",
+                    "required": true
+                }
+            ],
+            "samples": [
+                "what's for {MealType} on {DayOfWeek}",
+                "what's for {MealType} {DayOfWeek}",
+                "{DayOfWeek} {MealType}",
+                "what am I having for {MealType} on {DayOfWeek}",
+                "tell me {DayOfWeek}'s {MealType}",
+                "what should I cook for {MealType} on {DayOfWeek}"
+            ]
+        },
+        {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+        },
+        {
+            "name": "AMAZON.CancelIntent",
+            "samples": []
+        },
+        {
+            "name": "AMAZON.StopIntent",
+            "samples": []
+        },
+        {
+            "name": "AMAZON.FallbackIntent",
+            "samples": []
+        }
+    ],
+    "invocationName": "meal planner",
+    "description": "Alexa skill intent schema for weekly meal planner. Supports querying specific meals, today's meals, and next meal.",
+    "skillId": "SKILL_ID_PLACEHOLDER"
+}
