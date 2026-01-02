@@ -1,0 +1,87 @@
+{
+    "customSlots": [
+        {
+            "name": "MealTypeSlot",
+            "values": [
+                {
+                    "id": "breakfast",
+                    "name": {
+                        "value": "breakfast",
+                        "synonyms": [
+                            "morning meal",
+                            "first meal",
+                            "breakfast time"
+                        ]
+                    }
+                },
+                {
+                    "id": "morning_snack",
+                    "name": {
+                        "value": "morning snack",
+                        "synonyms": [
+                            "mid morning snack",
+                            "morning time snack",
+                            "snack before lunch",
+                            "first snack"
+                        ]
+                    }
+                },
+                {
+                    "id": "lunch",
+                    "name": {
+                        "value": "lunch",
+                        "synonyms": [
+                            "noon meal",
+                            "midday meal",
+                            "afternoon meal",
+                            "lunch time"
+                        ]
+                    }
+                },
+                {
+                    "id": "evening_snack",
+                    "name": {
+                        "value": "evening snack",
+                        "synonyms": [
+                            "afternoon snack",
+                            "snack before dinner",
+                            "evening time snack",
+                            "second snack"
+                        ]
+                    }
+                },
+                {
+                    "id": "dinner",
+                    "name": {
+                        "value": "dinner",
+                        "synonyms": [
+                            "supper",
+                            "evening meal",
+                            "night meal",
+                            "dinner time",
+                            "last meal"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "amazonSlots": [
+        {
+            "name": "AMAZON.DayOfWeek",
+            "description": "Built-in slot type for days of the week (Monday, Tuesday, etc.)",
+            "values": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+                "today",
+                "tomorrow"
+            ]
+        }
+    ],
+    "description": "Custom slot types for meal planner skill. MealTypeSlot defines the 5 meal periods with synonyms for natural language variations."
+}

@@ -1,0 +1,13 @@
+# Alexa Skill Local Debug Credentials
+# This file is used by debug_wrapper.py for ASK remote debugging
+# DO NOT commit this file to git (add to .gitignore)
+
+# Get your access token by running:
+# ask util generate-lwa-tokens --no-browser
+ACCESS_TOKEN=your_access_token_here
+
+# Your skill ID (already configured)
+SKILL_ID=amzn1.ask.skill.e19ca2d0-3c60-433d-a0c3-2fdd8a609746
+
+# Region (NA, EU, or FE)
+REGION=NA

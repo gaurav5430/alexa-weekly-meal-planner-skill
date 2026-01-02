@@ -1,0 +1,156 @@
+{
+    "Monday": {
+        "breakfast": {
+            "name": "Oatmeal with Berries",
+            "is_empty": false
+        },
+        "morning_snack": {
+            "name": "Greek Yogurt",
+            "is_empty": false
+        },
+        "lunch": {
+            "name": "Caesar Salad",
+            "is_empty": false
+        },
+        "evening_snack": {
+            "name": "Mixed Nuts",
+            "is_empty": false
+        },
+        "dinner": {
+            "name": "Grilled Chicken with Vegetables",
+            "is_empty": false
+        }
+    },
+    "Tuesday": {
+        "breakfast": {
+            "name": "Scrambled Eggs and Toast",
+            "is_empty": false
+        },
+        "morning_snack": {
+            "name": "Banana",
+            "is_empty": false
+        },
+        "lunch": {
+            "name": "Chicken Soup",
+            "is_empty": false
+        },
+        "evening_snack": {
+            "name": "Carrot Sticks",
+            "is_empty": false
+        },
+        "dinner": {
+            "name": "Baked Salmon with Rice",
+            "is_empty": false
+        }
+    },
+    "Wednesday": {
+        "breakfast": {
+            "name": "Pancakes with Maple Syrup",
+            "is_empty": false
+        },
+        "morning_snack": {
+            "name": "Apple Slices",
+            "is_empty": false
+        },
+        "lunch": {
+            "name": "Veggie Wrap",
+            "is_empty": false
+        },
+        "evening_snack": {
+            "name": "Hummus and Crackers",
+            "is_empty": false
+        },
+        "dinner": {
+            "name": "Spaghetti Bolognese",
+            "is_empty": false
+        }
+    },
+    "Thursday": {
+        "breakfast": {
+            "name": "Avocado Toast",
+            "is_empty": false
+        },
+        "morning_snack": {
+            "name": "Protein Smoothie",
+            "is_empty": false
+        },
+        "lunch": {
+            "name": "Turkey Sandwich",
+            "is_empty": false
+        },
+        "evening_snack": {
+            "name": "Cheese and Crackers",
+            "is_empty": false
+        },
+        "dinner": {
+            "name": "Beef Stir Fry",
+            "is_empty": false
+        }
+    },
+    "Friday": {
+        "breakfast": {
+            "name": "Cereal with Milk",
+            "is_empty": false
+        },
+        "morning_snack": {
+            "name": "Orange",
+            "is_empty": false
+        },
+        "lunch": {
+            "name": "Margherita Pizza",
+            "is_empty": false
+        },
+        "evening_snack": {
+            "name": "Cookies",
+            "is_empty": false
+        },
+        "dinner": {
+            "name": "Fish Tacos",
+            "is_empty": false
+        }
+    },
+    "Saturday": {
+        "breakfast": {
+            "name": "Waffles with Berries",
+            "is_empty": false
+        },
+        "morning_snack": {
+            "name": "Mixed Berries",
+            "is_empty": false
+        },
+        "lunch": {
+            "name": "Cheeseburger and Fries",
+            "is_empty": false
+        },
+        "evening_snack": {
+            "name": "Popcorn",
+            "is_empty": false
+        },
+        "dinner": {
+            "name": "Grilled Steak",
+            "is_empty": false
+        }
+    },
+    "Sunday": {
+        "breakfast": {
+            "name": "Bagel with Cream Cheese",
+            "is_empty": false
+        },
+        "morning_snack": {
+            "name": "Trail Mix",
+            "is_empty": false
+        },
+        "lunch": {
+            "name": "Pasta Primavera",
+            "is_empty": false
+        },
+        "evening_snack": {
+            "name": "Veggie Sticks",
+            "is_empty": false
+        },
+        "dinner": {
+            "name": "Chicken Curry with Naan",
+            "is_empty": false
+        }
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "LaunchRequest": {
+        "version": "1.0",
+        "session": {
+            "new": true,
+            "sessionId": "amzn1.echo-api.session.test-session-id",
+            "application": {
+                "applicationId": "amzn1.ask.skill.test-skill-id"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.test-user-id"
+            }
+        },
+        "request": {
+            "type": "LaunchRequest",
+            "requestId": "amzn1.echo-api.request.test-request-id",
+            "timestamp": "2026-01-01T12:00:00Z",
+            "locale": "en-US"
+        }
+    },
+    "GetMealIntent_Dinner": {
+        "version": "1.0",
+        "session": {
+            "new": false,
+            "sessionId": "amzn1.echo-api.session.test-session-id",
+            "application": {
+                "applicationId": "amzn1.ask.skill.test-skill-id"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.test-user-id"
+            }
+        },
+        "request": {
+            "type": "IntentRequest",
+            "requestId": "amzn1.echo-api.request.test-request-id",
+            "timestamp": "2026-01-01T12:00:00Z",
+            "locale": "en-US",
+            "intent": {
+                "name": "GetMealIntent",
+                "confirmationStatus": "NONE",
+                "slots": {
+                    "MealType": {
+                        "name": "MealType",
+                        "value": "dinner",
+                        "confirmationStatus": "NONE"
+                    }
+                }
+            }
+        }
+    },
+    "GetTodayMealsIntent": {
+        "version": "1.0",
+        "session": {
+            "new": false,
+            "sessionId": "amzn1.echo-api.session.test-session-id",
+            "application": {
+                "applicationId": "amzn1.ask.skill.test-skill-id"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.test-user-id"
+            }
+        },
+        "request": {
+            "type": "IntentRequest",
+            "requestId": "amzn1.echo-api.request.test-request-id",
+            "timestamp": "2026-01-01T12:00:00Z",
+            "locale": "en-US",
+            "intent": {
+                "name": "GetTodayMealsIntent",
+                "confirmationStatus": "NONE",
+                "slots": {}
+            }
+        }
+    },
+    "GetSpecificDayMealIntent_Friday_Breakfast": {
+        "version": "1.0",
+        "session": {
+            "new": false,
+            "sessionId": "amzn1.echo-api.session.test-session-id",
+            "application": {
+                "applicationId": "amzn1.ask.skill.test-skill-id"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.test-user-id"
+            }
+        },
+        "request": {
+            "type": "IntentRequest",
+            "requestId": "amzn1.echo-api.request.test-request-id",
+            "timestamp": "2026-01-01T12:00:00Z",
+            "locale": "en-US",
+            "intent": {
+                "name": "GetSpecificDayMealIntent",
+                "confirmationStatus": "NONE",
+                "slots": {
+                    "Day": {
+                        "name": "Day",
+                        "value": "Friday",
+                        "confirmationStatus": "NONE"
+                    },
+                    "MealType": {
+                        "name": "MealType",
+                        "value": "breakfast",
+                        "confirmationStatus": "NONE"
+                    }
+                }
+            }
+        }
+    },
+    "GetNextMealIntent": {
+        "version": "1.0",
+        "session": {
+            "new": false,
+            "sessionId": "amzn1.echo-api.session.test-session-id",
+            "application": {
+                "applicationId": "amzn1.ask.skill.test-skill-id"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.test-user-id"
+            }
+        },
+        "request": {
+            "type": "IntentRequest",
+            "requestId": "amzn1.echo-api.request.test-request-id",
+            "timestamp": "2026-01-01T12:00:00Z",
+            "locale": "en-US",
+            "intent": {
+                "name": "GetNextMealIntent",
+                "confirmationStatus": "NONE",
+                "slots": {}
+            }
+        }
+    },
+    "HelpIntent": {
+        "version": "1.0",
+        "session": {
+            "new": false,
+            "sessionId": "amzn1.echo-api.session.test-session-id",
+            "application": {
+                "applicationId": "amzn1.ask.skill.test-skill-id"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.test-user-id"
+            }
+        },
+        "request": {
+            "type": "IntentRequest",
+            "requestId": "amzn1.echo-api.request.test-request-id",
+            "timestamp": "2026-01-01T12:00:00Z",
+            "locale": "en-US",
+            "intent": {
+                "name": "AMAZON.HelpIntent",
+                "confirmationStatus": "NONE",
+                "slots": {}
+            }
+        }
+    },
+    "CancelIntent": {
+        "version": "1.0",
+        "session": {
+            "new": false,
+            "sessionId": "amzn1.echo-api.session.test-session-id",
+            "application": {
+                "applicationId": "amzn1.ask.skill.test-skill-id"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.test-user-id"
+            }
+        },
+        "request": {
+            "type": "IntentRequest",
+            "requestId": "amzn1.echo-api.request.test-request-id",
+            "timestamp": "2026-01-01T12:00:00Z",
+            "locale": "en-US",
+            "intent": {
+                "name": "AMAZON.CancelIntent",
+                "confirmationStatus": "NONE",
+                "slots": {}
+            }
+        }
+    }
+}

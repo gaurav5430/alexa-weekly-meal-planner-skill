@@ -1,0 +1,150 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "slots": [
+            {
+              "name": "MealType",
+              "type": "MealTypeSlot"
+            }
+          ],
+          "name": "GetMealIntent",
+          "samples": [
+            "what's for {MealType}",
+            "what's for {MealType} today",
+            "what should I make for {MealType}",
+            "what should I cook for {MealType}",
+            "what's {MealType}",
+            "tell me what's for {MealType}",
+            "what am I making for {MealType}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "GetTodayMealsIntent",
+          "samples": [
+            "what should I cook today",
+            "what to cook today",
+            "what's on the menu today",
+            "what are today's meals",
+            "tell me today's meals",
+            "what's for today",
+            "what should I make today"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "Day",
+              "type": "AMAZON.DayOfWeek"
+            },
+            {
+              "name": "MealType",
+              "type": "MealTypeSlot"
+            }
+          ],
+          "name": "GetSpecificDayMealIntent",
+          "samples": [
+            "what's for {MealType} on {Day}",
+            "what should I cook for {MealType} on {Day}",
+            "what's {MealType} on {Day}",
+            "tell me the {MealType} for {Day}",
+            "what am I making for {MealType} {Day}",
+            "what's for {MealType} {Day}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "GetNextMealIntent",
+          "samples": [
+            "what's next",
+            "what's the next meal",
+            "what should I cook next",
+            "what's next on the menu",
+            "tell me the next meal",
+            "what am I making next",
+            "what should I make next"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "morning meal",
+                  "first meal"
+                ],
+                "value": "breakfast"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "morning tea",
+                  "elevenses",
+                  "mid morning snack"
+                ],
+                "value": "morning snack"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "midday meal",
+                  "lunchtime",
+                  "afternoon meal"
+                ],
+                "value": "lunch"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "afternoon snack",
+                  "tea time",
+                  "evening tea"
+                ],
+                "value": "evening snack"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "supper",
+                  "evening meal",
+                  "last meal"
+                ],
+                "value": "dinner"
+              }
+            }
+          ],
+          "name": "MealTypeSlot"
+        }
+      ],
+      "invocationName": "weekly meal planner"
+    }
+  }
+}
